@@ -1,0 +1,46 @@
+# Mac OS X
+.DS_Store
+
+# JetBrains IDE
+.idea
+
+# vscode
+.vscode
+
+# 编译输出目录
+build
+buildPre
+buildBanner
+
+# npm模块安装目录
+node_modules
+
+# npm报错日志
+npm-debug.*
+
+# package-lock.json
+package-lock.json
+
+# 缓存目录
+cache
+skeletons
+
+# 运行文件
+debug.log
+mock/data
+
+# yarn.lock
+yarn-error.log
+tmp
+test.sh
+build0
+server
+unused-files.json
+json.txt
+dist
+robots.txt
+.history
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/tests/utils/config.ts
