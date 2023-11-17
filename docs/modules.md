@@ -36,4 +36,4 @@
 
 #### Defined in
 
-[getRandomList.ts:12](https://github.com/Arrrrray/junchao-utils/blob/3763dd3/src/getRandomList.ts#L12)
+[getRandomList.ts:12](https://github.com/Arrrrray/junchao-utils/blob/5ce544f/src/getRandomList.ts#L12)

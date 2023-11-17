@@ -4,7 +4,7 @@ TypeScript 函数库、工具类
 
 ## Docs
 
-[查看文档]()
+[查看文档](https://github.com/Arrrrray/junchao-utils/tree/main/docs)
 
 ## Installing
 
