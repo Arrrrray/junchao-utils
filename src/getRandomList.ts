@@ -9,14 +9,13 @@ const getRandomIntInclusive = (min: number, max: number) => {
  * @param list 需要排序的数组
  * @returns 随机排序后的数组
  */
-export const getRandomList = (list: []) => {
+export const getRandomList = <T>(list: T[]) => {
   const n = list.length;
   const swap = (i: number, j: number) => {
     list.splice(j, 1, ...list.splice(i, 1, list[j]));
   };
   for (let i = n - 1; i >= 0; i--) {
     const j = getRandomIntInclusive(0, i);
-    console.log(j);
     swap(i, j);
   }
   return list;

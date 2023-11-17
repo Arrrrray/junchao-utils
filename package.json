@@ -1,11 +1,12 @@
 {
-  "name": "jc-utils",
+  "name": "jcts-utils",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "doc": "typedoc --out docs src/index.ts"
   },
   "keywords": [],
   "author": "gaojunchao",
@@ -16,6 +17,7 @@
   ],
   "devDependencies": {
     "ts-node": "^10.9.1",
+    "typedoc": "^0.25.3",
     "typescript": "^5.2.2"
   }
 }
