@@ -1,12 +1,13 @@
 {
   "name": "jcts-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "doc": "typedoc --plugin typedoc-plugin-markdown --options typedoc.json"
+    "doc": "typedoc --plugin typedoc-plugin-markdown --options typedoc.json",
+    "pub": "npm run build && npm run doc && npm publish"
   },
   "keywords": [],
   "author": "gaojunchao",
