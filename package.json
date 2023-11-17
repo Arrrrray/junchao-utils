@@ -1,6 +1,6 @@
 {
   "name": "jcts-utils",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,6 +11,8 @@
   },
   "keywords": [],
   "author": "gaojunchao",
+  "repository": "https://github.com/Arrrrray/junchao-utils",
+  "homepage": "https://github.com/Arrrrray/junchao-utils/tree/main/docs",
   "license": "ISC",
   "files": [
     "dist",
